@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { useState } from 'react';
 
+
 const Cards = ({ data }) => {
     const { image, title, snippet, author, date } = data;
 
